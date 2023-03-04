@@ -11,12 +11,18 @@ Exposed path is /new.
 
 ## With the Json payload below, one can sell or buy cryptocurrencies on Binance.
 
-###Tables
+### Payload Fields
                     
-First Header  | Second Header
+Field Name  | Value
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
+exchange  | Only supported exchange for now, BINANCE
+ticker  | Send empty string
+closePrice  |  Send 0
+volume  |  Send 0
+action  |  BUY or SELL
+contractCount  |  Amount you want to buy or sell
+orderId  |  User's predefined order id
+coinType  | NORMAL or PERPETUAL
 
 ```yaml
 {
