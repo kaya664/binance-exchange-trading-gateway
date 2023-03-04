@@ -24,6 +24,8 @@ contractCount  |  Amount you want to buy or sell
 orderId  |  User's predefined order id
 coinType  | NORMAL or PERPETUAL
 
+### Json Example
+
 ```yaml
 {
    exchange: "BINANCE",
