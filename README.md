@@ -5,6 +5,9 @@ Binance Trading Gateway
 With this gateway application, you can automate your trading strategy for binance cryptocurrency pairs.
 It also provides trading for perpetual operations.
 
+!!!IMPORTANT!!!
+When you send BUY or SELL request with 100 contractCount, then application will calculate the commission fee directly and BUY and SELL the right amount.
+
 ##How to call the api
 Inside the source code, you can find the NewOrderController class to understand one and only Rest API.
 Exposed path is /new.
