@@ -8,7 +8,15 @@ It also provides trading for perpetual operations.
 ##How to call the api
 Inside the source code, you can find the NewOrderController class to understand one and only Rest API.
 Exposed path is /new.
-With the Json payload below, one can sell or buy cryptocurrencies on binance.
+
+## With the Json payload below, one can sell or buy cryptocurrencies on Binance.
+
+###Tables
+                    
+First Header  | Second Header
+------------- | -------------
+Content Cell  | Content Cell
+Content Cell  | Content Cell 
 
 ```yaml
 {
